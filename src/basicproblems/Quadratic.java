@@ -8,9 +8,9 @@ public class Quadratic {
       Scanner myinput = new Scanner(System.in);
       float a = 1;
       System.out.println("Enter value of b for quadratic equation  a*x*x + b*x + c");
-      float b = myinput.nextInt();
+      float b = myinput.nextFloat();
       System.out.println("Enter value of c for quadratic equation  a*x*x + b*x + c");
-      float c = myinput.nextInt();
+      float c = myinput.nextFloat();
       double delta = (b*b)-(4*a*c) ;
       double re = squareroot(delta);
       firstroot(a,b,re);
